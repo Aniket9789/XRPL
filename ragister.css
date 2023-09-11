@@ -1,0 +1,88 @@
+body {
+    background-image: url('https://u.today/sites/default/files/styles/1600x900/public/2023-08/38780.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Rcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.Rheading {
+    text-align: center;
+    color: white;
+    margin-left: 66rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid #dc7ff6; */
+    width: 22rem;
+    background-color: #071427;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 68rem;
+
+}
+
+.Rformdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.Rlast {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 234px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+
+button {
+    width: 110px;
+    border-radius: 9px;
+    /* height: 25px; */
+    font-weight: 700;
+    padding: 12px;
+}
+
+button:hover {
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+    /* background: -webkit-linear-gradient(bottom, #00dbde, #fc00ff); */
+    color: white;
+    cursor: pointer;
+}
+
+P {
+    font-size: larger;
+    color: white;
+}
+
+span {
+    margin-left: 25px;
+    font-size: larger;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    font-size: larger;
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+}

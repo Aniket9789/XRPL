@@ -1,0 +1,219 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Jost:ital,wght@0,300;1,300&family=Lato:ital,wght@0,700;0,900;1,300;1,400&family=Playfair:ital,wght@1,300&family=Poppins:ital,wght@0,500;1,400;1,600;1,900&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Aheading {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #F7931A;
+    width: 100%;
+    box-sizing: border-box;
+    height: 55px;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Ahead4 {
+    margin-top: 12px;
+    font-family: "Titillium Web", Arial, sans-serif;
+}
+
+.Aheader {
+    margin-top: 18px;
+}
+
+.Anav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.Aimagediv img {
+    margin-left: 25rem;
+}
+
+.Aul {
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    margin-right: 18rem;
+}
+
+.Ali {
+    margin-top: 11px;
+}
+
+.Aul {
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    margin-right: 18rem;
+}
+
+.Ali a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.Aimagediv1 {
+    position: relative;
+}
+
+.Aimagediv1 img {
+    width: 100%;
+}
+
+.Adiv2 {
+    position: absolute;
+    top: 40%;
+    color: gray;
+    left: 35rem;
+    line-height: 54px;
+}
+
+.Adiv2 h1 {
+    margin-left: 9rem;
+    color: white;
+    margin-top: -2rem;
+}
+
+.Adiv2 p {
+    margin-left: 5rem;
+}
+
+.Acontainer2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #F7931A;
+    width: 22rem;
+    margin-left: 36rem;
+    margin-top: 3rem;
+}
+
+#Aform {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 15px;
+}
+
+#Aform label {
+    margin-left: 26px;
+    margin-top: 1rem;
+
+}
+
+input {
+    height: 2rem;
+    border-radius: 5px;
+    border-bottom: 1px;
+    width: 20rem;
+}
+
+#Aform button {
+    margin-left: 7rem;
+    padding: 3px;
+    border-radius: 4px;
+    width: 6rem;
+}
+
+#Aform button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #F7931A;
+}
+
+/* footer/////////// */
+.Fimage1 img {
+    width: 100%;
+}
+
+.Fimage1 {
+    position: relative;
+
+}
+
+.Fimage2 {
+    top: 37%;
+    position: absolute;
+    left: 43%;
+    width: 15%;
+}
+
+.Fcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    border-top: 1px solid gray;
+}
+
+.F2container {
+    display: flex;
+    margin-top: 9rem;
+    gap: 27px;
+}
+
+.F2container button {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.F2container button:hover {
+    color: white;
+    background-color: #F7931A;
+    cursor: pointer;
+}
+
+.F2container span {
+    font-size: 26px;
+    color: gray;
+
+}
+
+.Fmain {
+    margin-top: 32px;
+    margin-left: 15rem;
+}
+
+.Ful {
+    margin-top: 21px;
+}
+
+.Fli {
+    list-style: none;
+    padding: 13px;
+
+}
+
+.Fli a {
+    text-decoration: none;
+    color: black;
+}
+
+.Fli a:hover {
+    color: #7919FF;
+}
+
+footer {
+    background-color: #f5f5f7;
+}
+
+.Fbottom p {
+    background-color: #13161f;
+    color: #9d9d9d;
+    text-align: center;
+    padding: 11px;
+}
